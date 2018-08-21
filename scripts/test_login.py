@@ -13,7 +13,7 @@ class TestLogin:
         self.login_page.input_password(password)
         self.login_page.click_login()
 
-        assert 0
+        assert 1
 
     @pytest.allure.severity(pytest.allure.severity_level.CRITICAL)
     def test_login2(self):
