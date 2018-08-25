@@ -7,6 +7,7 @@ class TestAAA:
     def test_aaa(self,a,b):
         print(a)
         print(b)
+        print("hello")
 
 
 
